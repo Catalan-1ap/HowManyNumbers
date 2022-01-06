@@ -32,28 +32,28 @@ The function should output an array with three values:  `[1, 2, 3]`
 
 The example given above should be:
 ```csharp
-	HowManyNumbers.FindAll(10, 3) == [8, 118, 334]   // as List<Integer>
+HowManyNumbers.FindAll(10, 3) == [8, 118, 334]   // as List<Integer>
 ```
 
 <br>
 
 If we have only one possible number as a solution, it should output a result like the one below:
 ```csharp
-	HowManyNumbers.FindAll(27, 3) == [1, 999, 999]
+HowManyNumbers.FindAll(27, 3) == [1, 999, 999]
 ```
 
 <br>
 
 If there are no possible numbers, the function should output the empty array.
 ```csharp
-	HowManyNumbers.FindAll(84, 4) == []
+HowManyNumbers.FindAll(84, 4) == []
 ```
 
 <br>
 
 The number of solutions climbs up when the number of digits increases.
 ```csharp
-	HowManyNumbers.FindAll(35, 6) == [123, 116999, 566666]
+HowManyNumbers.FindAll(35, 6) == [123, 116999, 566666]
 ```
 
 ## Attention
