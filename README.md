@@ -1,5 +1,5 @@
 
-# How-Many-Numbers
+# HowManyNumbers
 
 We want to generate all the numbers of three digits where:
 
